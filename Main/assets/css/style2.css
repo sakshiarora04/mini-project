@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    font-family: sans-serif, "Goudy Bookletter 1911";
+    font-size: 20px;
+    color:#8d7d78 ;
+    background-color: #FDF8F5;
+}
+h1,h2{
+    margin: 20px;
+}
+
+a{
+    
+    font-weight: bold;
+    color: #FDF8F5;
+}
+
+li{
+    display: inline;
+    /* margin: 5px; */
+    padding: 0px 20px;
+
+}
+main{
+
+    padding:60px 0px;
+}
+header{
+     position:fixed; 
+     width: 100%;
+    line-height: 60px;
+     text-align: right; 
+    height: 50px;
+    background-color: rgb(29, 95, 29);
+    border-bottom: 10px solid black;
+    
+    
+}
+footer{
+    position: absolute;
+    margin:0px;
+    width: 100%;
+    border-bottom: 5px solid #8d7d78;
+    background-color: rgb(29, 95, 29);
+
+}
+.bold-center
+{
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+section{
+   
+    margin-bottom: 0px;
+    padding: 20px 10px 40px 10px;
+    border-top: 3px solid #DDAF94;
+  background-color:  #E8CEBF;
+    
+}
+img{
+    display: block;
+    margin: 20px auto;
+    padding: 20px;
+}
+figure{
+    margin: 20px;
+    
+    
+}
+form{
+    margin: 0 auto;
+    padding: 20px;
+    width:500px;
+
+    border: 5px solid palevioletred;
+    border-radius: 20px;
+
+}
+.text-right{
+    text-align:right;
+}
+label{
+   display: inline-block;
+   width:100px;
+} 
+input{
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid black;
+    margin-left: 5px;
+
+}
+button{
+    height: 40px;
+    width: 70px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    color: #FDF8F5;
+    background-color: rgb(85, 42, 42);
+
+}
